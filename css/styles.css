@@ -300,7 +300,7 @@ section:nth-of-type(1){
     background-image: url("/img/parallax-img-1.jpg");
     background-size: 100% 100%;    
     filter: brightness(50%);
-    height: 50vh;
+    height: 80vh;
 }
 
 section:nth-of-type(2){
@@ -308,7 +308,7 @@ section:nth-of-type(2){
     background-size: 100% 100%;
     background-position: 0 90px;
     filter: brightness(40%);
-    height: 50vh;
+    height: 100vh;
 }
 
 #info-carousel {
