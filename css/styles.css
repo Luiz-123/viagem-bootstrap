@@ -226,6 +226,10 @@
     transition: 0.5s;
 }
 
+#featured-images .banner-content p {
+    color: #111;
+}
+
 @media(min-width: 768px) {
     .title {
         font-size: 2.4em;
@@ -261,7 +265,8 @@
 }
 
 #info-container .btn-dark:hover {
-    opacity: 0.8;     
+    opacity: 0.8;   
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
 }
 
 #info-content .title::before {    
@@ -296,14 +301,14 @@ section{
     background-attachment: fixed;
 }
 
-section:nth-of-type(1){
+section:nth-of-type(1) {
     background-image: url("/img/parallax-img-1.jpg");
     background-size: 100% 100%;    
     filter: brightness(50%);
     height: 80vh;
 }
 
-section:nth-of-type(2){
+section:nth-of-type(2) {
     background-image: url("/img/parallax-img-2.jpg");               
     background-size: 100% 100%;
     background-position: 0 90px;
@@ -316,13 +321,9 @@ section:nth-of-type(2){
 }
 
 @media(min-width: 768px) {
-    section:nth-of-type(1){        
+    section:nth-of-type(1) {        
         height: 500px;
-    }
-    
-    section:nth-of-type(2){        
-        height: 100vh;
-    }
+    }        
 }
 
 /* Footer Top */
@@ -420,5 +421,8 @@ section:nth-of-type(2){
         border-left: 1px solid #7a7a7a;
         border-right: 1px solid #7a7a7a;
     }
-}
 
+    #footer {        
+        height: 100vh auto;
+    }
+}
