@@ -54,6 +54,7 @@
     font-weight: 700;
     font-size: 1.5em;
     margin-left: 0.5em;
+    color: #050505;
 }
 
 #navbar-items .navbar-nav {
@@ -302,21 +303,25 @@ section{
 }
 
 section:nth-of-type(1) {
-    background-image: url("/img/parallax-img-1.jpg");
+    background-image: url("../img/parallax-img-1.jpg");
     background-size: 100% 100%;    
     filter: brightness(50%);
     height: 80vh;
 }
 
 section:nth-of-type(2) {
-    background-image: url("/img/parallax-img-2.jpg");               
+    background-image: url("../img/parallax-img-2.jpg");               
     background-size: 100% 100%;
     background-position: 0 90px;
     filter: brightness(40%);
     height: 100vh;
 }
 
-#info-carousel {
+#info-carousel-room {
+    margin-top: 4em;    
+}
+
+#info-carousel-bistro {
     margin-top: 4em;    
 }
 
@@ -426,3 +431,4 @@ section:nth-of-type(2) {
         height: 100vh auto;
     }
 }
+
