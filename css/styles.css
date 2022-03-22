@@ -432,3 +432,15 @@ section:nth-of-type(2) {
     }
 }
 
+/* Menu Active */
+@media(max-width: 480px) {
+    #navbar a.active {
+        background-color: rgb(230, 66, 17);
+        width: 100vw;
+        color: #fff;
+        margin-left: -30px;     
+        padding: 20px 30px;
+        
+    }
+
+}

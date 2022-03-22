@@ -16,3 +16,12 @@ $('navbar a').click(function(e){
 	}, 500);
 });
 
+
+//Menu Active
+var link = $('.nav-link');
+
+link.on("click", function() {
+	link.removeClass("active");
+	$(this).addClass("active");
+})
+
