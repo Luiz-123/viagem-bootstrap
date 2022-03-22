@@ -13,7 +13,7 @@ $('navbar a').click(function(e){
 
 	$('html, body').animate({
 		scrollTop: targetOffset - menuHeight -30
-	}, 500);
+	}, 1000);
 });
 
 
